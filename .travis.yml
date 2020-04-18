@@ -8,6 +8,7 @@ cache:
 sudo: false
 install:
   - npm install
+  - npm update
 script:
   - npm test
 deploy:
