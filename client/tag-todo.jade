@@ -8,7 +8,7 @@ todo
         input(type="text", placeholder="make a task", name="todo")
     ul
         li(each="{items}")
-            span \#{id + 1} 
+            span \#{id + 2} 
             span(class="{completed: done}") {title} {title}
             &nbsp;
             a(if="{!done}", onclick="{ parent.done }") done
